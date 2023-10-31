@@ -1,11 +1,18 @@
 CREATE DATABASE Property;
+
 USE Property;
+
 SHOW DATABASES;
+
 SELECT DATABASE();
+
 SHOW TABLES;
+
 DESC heart_attack;
+
 SELECT *
 FROM heart_attack;
+
 # How many patients have healthy diet and minimum 4 exercise hours per week? 
 SELECT COUNT(*) 
 FROM heart_attack 
